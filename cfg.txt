@@ -1,0 +1,24 @@
+;; Hotkey settings, if you comment all,  default is Alt+0
+
+hotkey.alt
+; hotkey.ctrl
+; hotkey.shift
+; hotkey.win
+hotkey.char 0
+
+;; Max item to record, range 1~999, default is 25
+
+max_item 50
+
+;; Initial preferred mode
+
+; mode.pause
+; mode.copy_rm
+mode.new_item_first
+mode.unique
+
+;; Read pin file content from p0~p9 defined text file path
+;; Then the file content will list in Pin String's submenu
+;; Each files should be encoding in UTF-16LE
+
+p0 p0_file.txt
